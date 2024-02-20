@@ -1,0 +1,4 @@
+# ???????=??????????
+org.springframework.context.ApplicationContextInitializer=cn.hui.initializer.MyApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=cn.hui.listener.MyListener
