@@ -4,7 +4,7 @@
 1. 使用debug的方式看源码
 ```
 
-![Pic1](.\images\Pic1.png)
+![Pic2](./images/Pic1.png)
 
 ### 启动流程
 
