@@ -11,7 +11,7 @@
 
 # 面试题
 
-1. [SpringBoot启动流程](./docs/interview-question/SpringBoot启动流程)
+1. [SpringBoot启动流程](/docs/interview-question/SpringBoot启动流程.md)
 2. IOC容器初始化流程
 3. Bean生命周期
 4. Bean循环依赖
