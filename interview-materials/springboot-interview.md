@@ -4,7 +4,7 @@
 2. [ApplicationListener](./docs/interview-konwledge/ApplicationListener.md)
 3. [BeanFactory](./docs/interview-konwledge/BeanFactory.md)
 4. [BeanDefinition](./docs/interview-konwledge/BeanDefinition.md)
-5. [BeanFactoryPostProcessor](./docs/interview-konwledge/ BeanFactoryPostProcessor.md)
+5. [BeanFactoryPostProcessor](./docs/interview-konwledge/BeanFactoryPostProcessor.md)
 6. [Aware](./docs/interview-konwledge/Aware.md)
 7. [InitializingBean/DisposableBean](./docs/interview-konwledge/InitializingBean/DisposableBean.md)
 8. [BeanPostProcessor](./docs/interview-konwledge/BeanPostProcessor.md)
@@ -21,4 +21,3 @@
 flowchart LR
 过程概述 --> 源码解析 --> 答案提取
 ```
-

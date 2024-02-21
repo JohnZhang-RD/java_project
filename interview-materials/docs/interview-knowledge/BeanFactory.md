@@ -14,5 +14,6 @@ BeanFactory常见的两个实现
 <img src=".\images\图片3.png" style="zoom:75%;" />
 
 - 委托的BeanFactory：DefaultListableBeanFactory
-![pic](.\images\图片4.png)
+
+<img src=".\images\图片4.png" />
 
