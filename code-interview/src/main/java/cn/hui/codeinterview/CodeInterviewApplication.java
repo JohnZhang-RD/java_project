@@ -30,6 +30,8 @@ public class CodeInterviewApplication {
         System.out.println(say.getClass());*/
         // 和上面情况相同
 //        System.out.println(context.getBean("teacher"));
+
+
     }
 
 }
