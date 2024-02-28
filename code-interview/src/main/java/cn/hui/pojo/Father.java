@@ -1,0 +1,45 @@
+package cn.hui.pojo;
+
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+/**
+ * Name: Father
+ * Package: cn.hui.pojo
+ * Description:
+ *
+ * @author Junhui Zhang
+ * @Date: 2024/02/22 - 16:37
+ * @Version: v1.0
+ */
+
+@Component
+public class Father implements InitializingBean, DisposableBean {
+
+    @Autowired
+    private Son son;
+
+    @PostConstruct
+    public void initMethod() {
+        System.out.println("Father...initMethod...");
+    }
+
+    @PreDestroy
+    public void destroyMethod() {
+        System.out.println("Father...destroyMethod...");
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("DisposableBean...destroy...执行了");
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("InitializingBean...afterPropertiesSet...执行了");
+    }
+}
